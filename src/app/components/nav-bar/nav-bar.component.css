@@ -1,0 +1,18 @@
+nav{
+  margin-top: 20px;
+  background-color: #FFD502;
+}
+
+ul{
+  display: flex;
+  list-style: none;
+  color: #000;
+  padding: 10px;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 14px;
+}
+
+li {
+  padding: 5px;
+}
