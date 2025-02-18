@@ -1,11 +1,16 @@
 main{
-  background: rgb(210,210,210);
-  background: linear-gradient(180deg, rgba(210,210,210,1) 35%, rgba(255,255,255,1) 100%);
-  padding: 20px 415px 0 415px;
+  background: #f2f2f2;
+ padding: 20px 415px 0 415px;
   display: flex;
   align-items: start;
   justify-content: space-between;
 }
+
+
+#main-container{
+  flex:1;
+}
+
 
 #cards{
   display: flex;
@@ -19,3 +24,4 @@ main{
   flex-direction: column;
   justify-content: space-between;
 }
+
