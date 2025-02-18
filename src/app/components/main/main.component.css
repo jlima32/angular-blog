@@ -1,0 +1,21 @@
+main{
+  background: rgb(210,210,210);
+  background: linear-gradient(180deg, rgba(210,210,210,1) 35%, rgba(255,255,255,1) 100%);
+  padding: 20px 415px 0 415px;
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+#cards{
+  display: flex;
+  background-color: #e1e1e1;
+  padding: 5px;
+  gap: 10px;
+}
+
+#small-card{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
