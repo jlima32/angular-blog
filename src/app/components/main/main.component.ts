@@ -9,7 +9,10 @@ import { PostComponent } from "../post/post.component";
   selector: 'app-main',
   imports: [SidebarComponent, BigCardComponent, SmallCardComponent, TitleComponent, PostComponent],
   templateUrl: './main.component.html',
-  styleUrl: './main.component.css'
+  styleUrls: [
+    './main.component.css',
+    './main.responsive.component.css'
+  ]
 })
 export class MainComponent {
 

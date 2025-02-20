@@ -1,0 +1,7 @@
+
+@media (max-width: 1300px) {
+  main{
+    padding: 20px;
+    flex-wrap: wrap;
+  }
+}

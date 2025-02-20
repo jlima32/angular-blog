@@ -7,7 +7,10 @@ import { NavBarComponent } from "../nav-bar/nav-bar.component";
   selector: 'app-header',
   imports: [LogoComponent, SearchComponent, NavBarComponent],
   templateUrl: './header.component.html',
-  styleUrl: './header.component.css'
+  styleUrls: [
+    './header.component.css',
+    './header.responsive.component.css'
+  ]
 })
 export class HeaderComponent {
 
