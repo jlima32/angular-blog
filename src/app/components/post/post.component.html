@@ -27,7 +27,8 @@
     </div>
   </div>
   <div class="post-footer">
-    <button type="submit" class="btn-read">Ler mais...</button>
+    <a [routerLink]="['content', id]"
+    routerLinkActive="router-link-active" class="btn-read">Ler mais...</a>
   </div>
 </div>
 
