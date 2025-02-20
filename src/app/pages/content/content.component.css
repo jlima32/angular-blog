@@ -1,0 +1,40 @@
+main{
+  background: #f2f2f2;
+  padding: 20px 415px 0 415px;
+  display: flex;
+}
+
+#main-container{
+  background-color: #FFF;
+  padding: 20px;
+  border: 1px solid #CCC;
+  border-radius: 6px;
+}
+
+.content-title{
+  height: 20px;
+  border-left: 5px solid #FFD502;
+  padding-left: 5px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.content-info{
+  margin-top: 30px;
+  display: flex;
+  gap: 5px;
+}
+
+
+.content-info p{
+  background-color: #ECEBEB;
+  color: #999;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 4px 14px;
+}
+
+.content-text{
+  margin-top: 20px;
+}
+

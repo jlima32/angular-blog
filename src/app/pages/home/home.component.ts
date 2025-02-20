@@ -7,7 +7,7 @@ import { SidebarComponent } from "../../components/sidebar/sidebar.component";
   selector: 'app-home',
   imports: [TitleComponent, PostComponent, SidebarComponent],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrls: ['./home.component.css', './home.responsive.component.css']
 })
 export class HomeComponent {
 
