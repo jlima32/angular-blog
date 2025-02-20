@@ -6,22 +6,3 @@ main{
   justify-content: space-between;
 }
 
-
-#main-container{
-  flex:1;
-}
-
-
-#cards{
-  display: flex;
-  background-color: #e1e1e1;
-  padding: 5px;
-  gap: 10px;
-}
-
-#small-card{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
-

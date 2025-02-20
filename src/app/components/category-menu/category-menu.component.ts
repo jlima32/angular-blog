@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-category-menu',
   imports: [],
   templateUrl: './category-menu.component.html',
-  styleUrl: './category-menu.component.css'
+  styleUrls: ['./category-menu.component.css', './category-menu.responsive.component.css']
 })
 export class CategoryMenuComponent {
 
