@@ -3,56 +3,27 @@
 <div class="post-container">
   <div class="post-header">
     <div class="post-date">
-      <p>20</p>
+      <p>{{postDay}}</p>
     </div>
     <div class="post-title-info">
       <div class="post-title">
-        <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
+        <p>{{postTitle}}</p>
       </div>
       <div class="post-info">
-        <p>Admin</p>
-        <p>20 Jan 2025</p>
-        <p>4 comentários</p>
-        <p>Categoria</p>
+        <p>{{postUser}}</p>
+        <p>{{postDate}}</p>
+        <p>{{postComments}} comentários</p>
+        <p>{{postCategory}}</p>
       </div>
     </div>
   </div>
   <div class="post-content">
     <div class="post-img">
-        <img src="https://bootstrapbrain.com/demo/components/blogs/blog-5/assets/img/blog-img-3.jpg" alt="imagem post" srcset="">
+        <img src="{{postCover}}" alt="imagem post" srcset="">
     </div>
-    <div class="post-txt">
-      Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
-    </div>
-  </div>
-  <div class="post-footer">
-    <button type="submit" class="btn-read">Ler mais...</button>
-  </div>
-</div>
 
-<div class="post-container">
-  <div class="post-header">
-    <div class="post-date">
-      <p>20</p>
-    </div>
-    <div class="post-title-info">
-      <div class="post-title">
-        <p>Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.</p>
-      </div>
-      <div class="post-info">
-        <p>Admin</p>
-        <p>20 Jan 2025</p>
-        <p>4 comentários</p>
-        <p>Categoria</p>
-      </div>
-    </div>
-  </div>
-  <div class="post-content">
-    <div class="post-img">
-      <img src="https://bootstrapbrain.com/demo/components/blogs/blog-5/assets/img/blog-img-3.jpg" alt="imagem post" srcset="">
-    </div>
     <div class="post-txt">
-      Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos
+      {{postText}}
     </div>
   </div>
   <div class="post-footer">
